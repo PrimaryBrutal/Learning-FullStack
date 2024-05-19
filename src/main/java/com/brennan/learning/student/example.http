@@ -1,0 +1,22 @@
+POST http://localhost:8080/api/v1/student
+Content-Type: application/json
+
+{
+    "name" : "Garrett",
+    "dob" : "2007-04-10",
+    "email" : "garrettdavenport62@gmail.com"
+}
+
+
+###
+DELETE http://localhost:8080/api/v1/student/1
+
+
+###
+PUT http://localhost:8080/api/v1/student/1?name=Garrett&email=garrettdavenport76@gmail.com
+Content-Type: application/json
+
+# {
+#     "name" : "Garrett",
+#     "email" : "garrettdavenport76@gmail.com"
+# }
